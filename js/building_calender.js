@@ -35,7 +35,7 @@ function fillInCalender() {
 			
 		//Filling next month
 		} else {
-			fillPartialMonthData(days[i], nextMonthCount, month_data[monthToFillIn.month_index + 1], "next");
+			fillPartialMonthData(days[i], nextMonthCount, month_data[previousMonthIndex + 2], "next");
 
 			nextMonthCount++;
 		}
