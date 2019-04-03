@@ -1,0 +1,23 @@
+#calender tbody tr td[class*="color"] {
+	border-right: 1px solid white;
+}
+
+#calender tbody tr td[class*="color"]:first-child {
+	border-left-color: inherit;
+}
+
+#calender tbody tr td[class*="color"]:last-child {
+	border-right-color: inherit;
+}
+
+#calender tbody tr:nth-child(5) td[class*="color"] {
+	border-bottom-color: white;
+}
+
+#calender tbody tr:last-child td[class*="color"] {
+	border-bottom-color: inherit;
+}
+
+#calender tbody .prev-month-last-day:not(:last-child) {
+	border-right: 1px solid black !important;
+}
